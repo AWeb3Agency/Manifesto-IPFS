@@ -4,20 +4,20 @@ import { NextApiRequest, NextApiResponse } from "next";
  * @swagger
  *
  * components:
- *   get-forms-google:
+ *   get-froms-google:
  *     GetFromsGoogleResponse:
  *       type: object
  *       properties:
- *         get-forms-google:
+ *         get-froms-google:
  *           type: string
  * tags:
- *   - name: get-forms-google
+ *   - name: get-froms-google
  *     description: Get the latest info via Google API from
  *
- * /get-forms-google:
+ * /get-froms-google:
  *   get:
  *     description: 
- *     tags: [get-forms-google]
+ *     tags: [get-froms-google]
  *     produces:
  *       - application/json
  *     responses:

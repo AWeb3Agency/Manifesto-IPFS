@@ -4,20 +4,20 @@ import { NextApiRequest, NextApiResponse } from "next";
  * @swagger
  *
  * components:
- *   diff-forms:
- *     DiffFormsResponse:
+ *   diff-froms:
+ *     DiffFromsResponse:
  *       type: object
  *       properties:
- *         diff-forms:
+ *         diff-froms:
  *           type: string
  * tags:
- *   - name: diff-forms
- *     description: Compare most_recent with the latest information from Google Form API
+ *   - name: diff-froms
+ *     description: Compare most_recent with the latest information from Google From API
  *
- * /diff-forms:
+ * /diff-froms:
  *   get:
- *     description: If there are new forms called add-index.
- *     tags: [diff-forms]
+ *     description: If there are new froms called add-index.
+ *     tags: [diff-froms]
  *     produces:
  *       - application/json
  *     responses:
