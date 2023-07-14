@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "yarn legacy-provider next dev",
-    "build": "yarn legacy-provider next build",
-    "start": "yarn legacy-provider next start",
+    "dev": "npm run legacy-provider next dev",
+    "build": "npm run legacy-provider next build",
+    "start": "npm run legacy-provider next start",
     "legacy-provider": "NODE_OPTIONS=--openssl-legacy-provider",
     "swagger": "swagger-jsdoc -d swaggerDef.js && mv swagger.json ./public/."
   },
