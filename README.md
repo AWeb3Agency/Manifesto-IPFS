@@ -4,6 +4,8 @@
 
 Development environment is served at [http://localhost:3000](http://localhost:3000).
 
+To install, run `yarn`.
+
 To start up, run `yarn dev`.
 
 To update Swagger info, amend `src/configs/initialize-swagger.js`.
